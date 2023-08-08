@@ -49,7 +49,7 @@ public:
     void AddEdgeToParentNode(GraphEdge *edge);
     //void AddEdgeToChildNode(GraphEdge *edge);
     //void AddEdgetoParentNode(std::unique_ptr<GraphEdge>(edge));
-    void AddEdgetoChildNode(std::unique_ptr<GraphEdge>(edge));
+    void AddEdgeToChildNode(std::unique_ptr<GraphEdge>(edge));
     //// STUDENT CODE
     ////
 
